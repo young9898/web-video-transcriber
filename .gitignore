@@ -1,0 +1,32 @@
+# Virtual environments (including the bare `venv` symlink an iCloud checkout uses)
+venv
+venv/
+venv.nosync/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Assistant configuration — never publish
+.claude/
+
+# Transcripts and downloaded media are local output, not code
+*.txt
+*.srt
+*.vtt
+*.mp3
+*.m4a
+*.wav
+*.mp4
+*.webm
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
