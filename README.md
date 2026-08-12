@@ -8,6 +8,28 @@ no captions, it downloads the audio and transcribes it locally with
 
 Works with any site [yt-dlp](https://github.com/yt-dlp/yt-dlp) supports, which is most of them.
 
+## Why this exists
+
+An enormous amount of genuinely good knowledge lives only inside video. Conference
+talks, lectures, teardowns, interviews, the one person who actually explains the
+thing properly — it is all there, and almost none of it is **data**. You cannot
+grep it. You cannot feed it to a model. You cannot ask it a question. You can only
+sit and watch it at the speed the speaker chose.
+
+A transcript changes what the thing *is*. Once the words are text:
+
+- **Summarize it** — a two-hour talk becomes the five paragraphs you needed
+- **Query it** — search across everything you have watched, not just one video
+- **Build a dataset** — dozens of talks on a topic become a corpus you can analyze
+- **Feed it to an AI** — as context, as RAG source material, as input to anything
+- **Re-cut it** — generate a written digest, a study guide, a summarized podcast
+
+None of that is possible while the knowledge is trapped in an audio waveform. The
+transcription is not the point; it is the step that turns watchable content into
+usable data, and everything interesting happens after it.
+
+This tool does that step, locally, without sending your material to anyone.
+
 ## Requirements
 
 - Python 3.10 or newer
@@ -86,6 +108,11 @@ python3 -m unittest discover -s tests
 ```
 
 The suite uses mocks throughout: no network calls, and no external tools are invoked.
+
+## Contact
+
+Issues and pull requests are welcome. For anything that does not belong in a
+public issue: **github@youngnetwork.org**
 
 ## License
 
