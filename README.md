@@ -90,3 +90,6 @@ The suite uses mocks throughout: no network calls, and no external tools are inv
 ## License
 
 MIT — see [LICENSE](LICENSE).
+No strings beyond the license file, and no policing. If this saves you an
+afternoon, that is the whole point. Credit is appreciated and never demanded; if
+you build something better on top of it, that is the best outcome available.
